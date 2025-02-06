@@ -36,7 +36,7 @@ Každý řádek představuje jeden výpočet. Testovací hodnoty jsou uvedeny p�
 Tvým úkolem je zjistit, jestli je možné zbývající čísla na řádku zkombinovat operátory, aby vznikla
 testovací hodnota.
 
-__Operátory jsou vždy vyhodnocovány zprava doleva, nikoliv dle typických pravidel
+__Operátory jsou vždy vyhodnocovány zleva doprava, nikoliv dle typických pravidel
 pořadí operátorů__. Stejně tak není možné zaměňovat pořadí čísel na pravé straně.
 
 V příkladu výše jsou pouze čtyři validní výpočty:
@@ -45,7 +45,7 @@ V příkladu výše jsou pouze čtyři validní výpočty:
   Vybereme-li `+`, získáme `29`, ale pokud naopak `*` obdržíme testovací hodnotu (`8 * 21 = 168`).
 - V případě `4488: 81, 55, 33` jsou dvě místa pro operátor. Mezi čtyřmi možnými konfiguracemi
   operátorů jsou dvě, které po vyhodnocení produkují testovací hodnotu: `81 + 55 * 33`
-  a `81 * 55 + 33` se oba rovnají `4488` (při dodržení pořadí vyhodnocení zprava doleva)!
+  a `81 * 55 + 33` se oba rovnají `4488` (při dodržení pořadí vyhodnocení zleva doprava)!
 - Výpočet `153: 20 7 5 18` je validní pouze v jediném případě: `20 + 7 * 5 + 18`.
 - Výpočet `97: 95 2 1 1` je rovněž možné učinit validním pouze jedním způsobem `95 + 2 * 1 * 1`
 
