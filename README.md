@@ -133,6 +133,8 @@ Pro vývoj řešení doporučujeme Visual Studio Code, jelikož v následující
 na postupy z oficiální dokumentace tohoto nástroje. Na vývojovém prostředí ale nakonec nezáleží,
 podstatné je dodržet požadovaný tooling a strukturu repozitáře.
 
+__Pro spouštění příkazů ve Windows používejte výhradně CMD__.
+
 ### C++
 
 Potřebujeme, aby váš repozitář definoval zcela triviální CMake project stejně jak je tomu
@@ -159,7 +161,7 @@ intern-2025-%GITHUB_USERNAME%> cmake -B build .
 Pro sestavení příkaz:
 
 ```text
-intern-2025-%GITHUB_USERNAME%> cmake --build build –config Release
+intern-2025-%GITHUB_USERNAME%> cmake --build build -–config Release
 ```
 
 Pro spuštění potom příkaz
